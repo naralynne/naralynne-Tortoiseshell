@@ -1,0 +1,141 @@
+html {
+  font-size: 18px;
+  font-family: Helvetica;
+  line-height: 1.4;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* HEADER and NAVIGATION*/
+
+.header {
+  background-color: cadetblue;
+  color: white;
+  top: 1rem;
+  position: relative;
+  max-width: 960px;
+  margin: 0 auto;
+
+}
+.header .container {
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  height: 1rem;
+  justify-content: space-between;
+}
+
+.header img {
+  height: 1.5rem;
+  margin-right: 1rem;
+}
+
+.header .logo {
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+}
+.navigation li {
+  list-style: none;
+  justify-content: space-between;
+  margin-left: 2rem;
+}
+
+
+/* MAIN BANNER -- fix size of headline box*/
+.main_banner {
+  background-image: url("../img/glasses-bg.png");
+  height: 30rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.main_headline {
+  background-color: white;
+  padding: 1.5rem 5rem;
+  margin-top: 10rem;
+  margin-right: 5rem;
+  margin-left: 28rem;
+  width: 40%;
+}
+
+.main_headline h1 {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+
+}
+
+
+/* MAIN CONTENT - ICONS --need to fix alignment on span elements*/
+.icons .container {
+  max-height: 8rem;
+  max-width: 25rem;
+  margin: 3rem 18rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: space-between;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0 3rem;
+}
+
+.services span {
+  width: 5rem;
+  text-align: center;
+
+}
+
+#Exams img {
+  max-width: 3.5rem;
+}
+
+#Fittings img, #Delivery img {
+  max-width: 5rem;
+}
+
+/* MAIN CONTENT - COPY */
+.copy .container {
+  display: flex;
+  margin-bottom: 5rem;
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: cadetblue;
+  color: white;
+  width: 10rem;
+  padding: 0.5rem 0 0.5rem 1.25rem;
+}
+.philosopy, .appointments {
+  width: 35%;
+  margin-left: 5%;
+  margin-bottom: 1rem;
+}
+
+/* FOOTER*/
+footer .container {
+  background-color: azure;
+  padding: 4rem 0 4rem 4rem;
+  display: flex;
+  align-content: center;
+}
+
+footer img {
+  height: 1.5rem;
+  margin-right: 1rem;
+}
