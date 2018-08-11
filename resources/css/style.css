@@ -47,6 +47,12 @@ html {
   margin-left: 2rem;
 }
 
+@media only screen and (max-width: 1144px) {
+  .header {
+    max-width: 100%;
+    top: 0;
+  }
+}
 
 /* MAIN BANNER -- fix size of headline box*/
 .main_banner {
@@ -61,18 +67,37 @@ html {
   background-color: white;
   padding: 1.5rem 5rem;
   margin-top: 10rem;
-  margin-right: 5rem;
   margin-left: 28rem;
-  width: 40%;
+  width: 38%;
 }
 
 .main_headline h1 {
   font-weight: bold;
   font-size: 2rem;
   line-height: 1.2;
-
+  text-align: center;
 }
 
+@media only screen and (max-width: 1144px) {
+  .main_banner {
+    height: 22rem;
+  }
+
+  .main_headline {
+    padding: 0.75rem 4rem;
+    margin-top: 5rem;
+    margin-left: 15rem;
+    margin-right: 2rem;
+    width: 38%;
+  }
+
+  .main_headline h1 {
+    font-weight: bold;
+    font-size: 1.33rem;
+    line-height: 1.2;
+    text-align: center;
+  }
+}
 
 /* MAIN CONTENT - ICONS --need to fix alignment on span elements*/
 .icons .container {
@@ -107,6 +132,15 @@ html {
   max-width: 5rem;
 }
 
+@media only screen and (max-width: 1144px) {
+  .icons .container {
+    max-height: 8rem;
+    width: 100%;
+    margin: 3rem auto;
+    justify-content: center;
+
+
+}
 /* MAIN CONTENT - COPY */
 .copy .container {
   display: flex;
@@ -125,6 +159,12 @@ html {
   width: 35%;
   margin-left: 5%;
   margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 1144px) {
+  .copy .container {
+    width: 100%
+  }
 }
 
 /* FOOTER*/
